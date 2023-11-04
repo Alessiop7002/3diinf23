@@ -1,0 +1,70 @@
+body{
+    font-family: "Bodoni Moda";
+    background-color: #F8F7F2;
+}
+@font-face {
+    font-family: Bodoni Moda;
+    src: url(Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf);
+}
+#titolo{
+    text-shadow: 3px 6px 6px rgb(0, 0, 0, 0.25);
+    font-size: 40px;
+    margin: 5px;
+}
+#head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8F7F2;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#nav{
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    margin: 5px;
+}
+#hidden{
+    color: #ffffff00;
+    font-size: 40px;
+    margin: 5px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+}
+.subtitle{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px -3px 5px rgba(0, 0, 0, 0.25);
+
+}
+p{
+    font-size: 24px;
+}
+.text{
+    width: 100%;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+td,th,table{
+    text-align: center;
+    border-style: solid;
+    height: 50px;
+    width: 700px;
+    border-radius: 10px;
+}
+li{
+    font-size: 32px;
+}
